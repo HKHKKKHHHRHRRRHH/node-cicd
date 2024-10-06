@@ -18,5 +18,5 @@ phases:
       - echo Pushing the Docker image...
       - docker push $REPOSITORY_URI:$IMAGE_TAG
 artifacts:
-  files: '**/*'
+  files: imagedefinitions.json
   discard-paths: yes
